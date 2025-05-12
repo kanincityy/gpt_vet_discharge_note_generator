@@ -35,7 +35,6 @@ vet-discharge-note-generator/
 
 1.  **Clone the repository:**
     ```bash
-    # Replace the URL with your actual repository URL if different
     git clone https://github.com/kanincityy/vet_discharge_note_generator.git
     cd vet_discharge_note_generator
     ```
