@@ -1,0 +1,27 @@
+{
+  "patient": {
+    "name": "Sparky",
+    "species": "Dog (Canine - Domestic)",
+    "breed": "Terrier - Parson Russel",
+    "gender": "male",
+    "neutered": true,
+    "date_of_birth": "2023-02-28",
+    "microchip": "1234567890",
+    "weight": "8 kg"
+  },
+  "consultation": {
+    "date": "2025-03-19",
+    "time": "09:15",
+    "reason": "Ophtho | Eyelid Mass Removal",
+    "type": "Outpatient",
+    "clinical_notes": [],
+    "treatment_items": {
+      "procedures": [],
+      "medicines": [],
+      "prescriptions": [],
+      "foods": [],
+      "supplies": []
+    },
+    "diagnostics": []
+  }
+}

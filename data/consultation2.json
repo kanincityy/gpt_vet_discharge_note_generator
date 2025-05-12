@@ -1,0 +1,42 @@
+{
+  "patient": {
+    "name": "Darth Vader",
+    "species": "Dog (Canine - Domestic)",
+    "breed": "Chiuaua",
+    "gender": "male",
+    "neutered": false,
+    "date_of_birth": "2019-01-01",
+    "microchip": null,
+    "weight": "3.2 kg"
+  },
+  "consultation": {
+    "date": "2025-02-21",
+    "time": "12:37",
+    "reason": "Repeat Consultation",
+    "type": "Outpatient",
+    "clinical_notes": [
+      {
+        "type": "general",
+        "note": "Doing a lot better, cough stopped\nstarted running and playing\neats food without issues\nseems better and more lively overall"
+      }
+    ],
+    "treatment_items": {
+      "procedures": [
+        {
+          "date": "2025-02-21",
+          "time": "12:45",
+          "name": "Consultation - Repeat",
+          "code": "con010",
+          "quantity": 1,
+          "total_price": 6450,
+          "currency": "GBP"
+        }
+      ],
+      "medicines": [],
+      "prescriptions": [],
+      "foods": [],
+      "supplies": []
+    },
+    "diagnostics": []
+  }
+}
