@@ -124,7 +124,6 @@ def main():
 
     # Extract Relevant Data from JSON and Prepare for LLM 
     # Create a string summary of the consultation data to feed to the LLM
-
     patient_info = consultation_data.get("patient", {})
     consult_info = consultation_data.get("consultation", {})
     treatment_items = consult_info.get("treatment_items", {})
@@ -158,7 +157,7 @@ def main():
         med_summaries = []
         for med in medicines_list:
             med_name = med.get("name", "Unnamed Medicine")
-            # IMPORTANT: Real medicine data would have dosage, frequency, duration.
+            # Real medicine data would have dosage, frequency, duration.
             # Example formatting if such fields exist:
             # dosage = med.get("dosage", "")
             # frequency = med.get("frequency", "")
@@ -181,7 +180,7 @@ def main():
         home_med_details = []
         for prescr in prescriptions_list:
             prescr_name = prescr.get("name", "Unnamed Prescription")
-            # IMPORTANT: Real prescription data would have dosage, frequency, duration.
+            # Real prescription data would have dosage, frequency, duration.
             # Example of formatting if such fields exist:
             # dosage = prescr.get("dosage", "")
             # frequency = prescr.get("frequency", "")
@@ -261,7 +260,6 @@ def main():
     elif not generated_note_text:
         print("Warning: Generated note is empty.", file=sys.stderr)
         exit(1)
-
     print("Discharge note generated successfully.", file=sys.stderr)
     print("Generated Discharge Note: ", file=sys.stderr)
     print(generated_note_text, file=sys.stderr)
