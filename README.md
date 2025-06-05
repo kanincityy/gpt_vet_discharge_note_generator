@@ -1,6 +1,16 @@
 # Veterinary Discharge Note Generator
 
-This script uses the OpenAI API (GPT-3.5-turbo) to generate a veterinary discharge note based on structured consultation data provided in a JSON file.
+## Objective
+
+To create a tool that transforms structured JSON data from veterinary appointments into clear, patient-friendly discharge notes using an LLM.
+
+## Tech Stack
+
+- OpenAI API (GPT-3.5-turbo)
+- Python (script-based CLI tool)
+- .env integration for secure API use
+- JSON I/O handling
+- VS Code Debugger–ready project layout
 
 ## Features
 
